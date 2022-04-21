@@ -3,7 +3,7 @@ import {loadStripe} from '@stripe/stripe-js';
 import { Elements } from '@stripe/react-stripe-js';
 import CheckoutForm from './CheckoutForm';
 
-const public_key="pk_test_51KpOBkDlrmIgsDL8ZfqYmi9TqKPTzDLqW7IGML4NGtLRoZ4rzddwKVVLTynZqyWnK0LC9GjEh8G4t08ikdmPVONs00Ed43pOlp"
+const public_key="try your own if you want"
 const stripeTestPromise=loadStripe(public_key)
 
 
